@@ -1,0 +1,77 @@
+mcc -C -o UpdateClassifiers -W WinMain:UpdateClassifiers -T link:exe -d 'C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing' -v 'C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers.m' 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+[Warning: Adding path "C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA
+teleBCI\Software\Classifier" to Compiler path instance.] 
+[] 
+Parsing file "C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 57 temporary MEX authorization files.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b017623_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b027828_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b09823_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b021326_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b013727_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b011908_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b04793_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b011804_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b09699_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b015084_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b014376_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b014110_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b04909_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b032092_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b031040_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b09369_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b011155_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b014400_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b014173_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b027852_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b03480_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b07066_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b017750_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b07690_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b024230_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b05980_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b011656_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b023114_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b013731_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b012391_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b017568_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b014740_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b018511_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b03082_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b01795_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b016843_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b021450_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b018037_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b025965_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b04299_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b028247_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b026661_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b032379_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b032598_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b06497_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b031967_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b026423_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b011428_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b017968_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b05761_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b032610_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b025910_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b02179_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b015795_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b03441_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b07498_20656.auth'.
+Removing: 'C:\Users\BCICOM~1\AppData\Local\Temp\mathworks_tmp_050b025255_20656.auth'.
+Generating file "C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers_resources\icon.ico to C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\UpdateClassifiers.exe.
+Attempting to embed the CTF archive into the application C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\UpdateClassifiers.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_redistribution\UpdateClassifiers_Installer.exe.
+Packaging complete.
+Elapsed packaging time was: 2 minutes and 32 seconds.

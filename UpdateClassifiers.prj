@@ -1,0 +1,195 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2974142410" file="C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers.prj" location="C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier" name="UpdateClassifiers" preferred-package-location="C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>UpdateClassifiers</param.appname>
+    <param.icon>${PROJECT_ROOT}\UpdateClassifiers_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\UpdateClassifiers_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\UpdateClassifiers_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\UpdateClassifiers_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\UpdateClassifiers_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Andrew Geronimo</param.authnamewatermark>
+    <param.email>ageronimo@hmc.psu.edu</param.email>
+    <param.company>The Pennsylvania State University</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Logos\Logaster\5_White_logo_on_black_240x75 (3).png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\The Pennsylvania State University\UpdateClassifiers\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\UpdateClassifiers\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\UpdateClassifiers\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\UpdateClassifiers\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>UpdateClassifiers_Installer</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\UpdateClassifiers.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BuildClassifier_teleBCI7.m</file>
+      <file>${PROJECT_ROOT}\BuildMIClassifier_teleBCI2.m</file>
+      <file>${PROJECT_ROOT}\CheckFileViabilityMI.m</file>
+      <file>${PROJECT_ROOT}\CheckFileViabilityP300_v2.m</file>
+      <file>${PROJECT_ROOT}\EyeTracking_inMIClassifier.m</file>
+      <file>${PROJECT_ROOT}\FindFiles.m</file>
+      <file>${PROJECT_ROOT}\P300_EyeTracking_inP300Classifier_v3.m</file>
+      <file>${PROJECT_ROOT}\UpdateClassifiers.fig</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\BCI2000tools\load_bcidat.mexw64</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\bdf2biosig_events.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\bkropen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\bni2hdr.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\bv2biosig_events.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\cntopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\famosopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\fefopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\fltopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\gdfdatatype.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\getfiletype.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\iopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\iread.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\leadidcodexyz.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\matread.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\mexSLOAD.mexw64</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\mwfopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\opendicom.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\openiff.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\openldr.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\openxml.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\physicalunits.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\sclose.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\scpopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\seof.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\sload.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\sopen.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t200_FileAccess\sread.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\get_regress_eog.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\gettrigger.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\identify_eog_channels.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\regress_eog.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\rs.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t250_ArtifactPreProcessingQualityControl\trigg.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t300_FeatureExtraction\bss.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\biosig\t300_FeatureExtraction\hurst.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\dlmcell.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\abs.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\all.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\any.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\diff.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\max.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\external\fieldtrip-partial\fileio\@uint64\min.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\plugins\anteepimport1.05\read_eep_avr.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\eeglab9_0_3_4b\eeglab9_0_3_4b\plugins\anteepimport1.05\read_eep_cnt.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\fastica.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\fpica.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\icaplot.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\pcamat.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\remmean.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\FastICA_25\whitenv.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\peakdet.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\tsa\covm.m</file>
+      <file>C:\Users\BCIcomputer01\Documents\MATLAB\tsa\sumskipnan.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\UpdateClassifiers\for_testing" name="readme.txt" optional="true">C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\UpdateClassifiers\for_testing" name="splash.png" optional="false">C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\UpdateClassifiers\for_testing" name="UpdateClassifiers.exe" optional="false">C:\Users\BCIcomputer01\Accellion\Sync\kitedrive\ALSA teleBCI\Software\Classifier\UpdateClassifiers\for_testing\UpdateClassifiers.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015b</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
